@@ -1,0 +1,759 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.container{
+width: 90%;
+margin: auto;
+}
+
+/* top section end */
+#hader{width: 100%;display: inline-block;background-color: black;/* padding: 4px; *//* margin: 0px; */}
+#hader .logo{
+width: 30%;
+float: left;
+}
+#hader .logo i{
+    color: #fff;
+    font-size: 35px;
+    line-height: 0;
+    margin: 40px 160px;
+    text-align: center;
+}
+#hader .logo h3{
+    color: #fff;
+    font-size: 35px;
+    line-height: 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#hader .nav{
+width: 60%;
+float: left;
+margin: 50px 0;
+}
+#hader .nav ul li{
+    display: inline-block;
+    
+}
+#hader .nav ul li a{
+    color: #fff;
+    font-size: 40px;
+    line-height: 27px;
+    font-weight: 600;
+    margin-right: 20px;
+}
+
+#hader .nav ul li a:hover{
+    color: rgb(25, 25, 172);
+}
+
+#hader .hader-end{
+    width: 10%;
+    float: left;
+    margin-top: 40px;
+}
+#hader .hader-end i{
+    color: #fff;
+    font-size: 40px;
+}
+/* hero put */
+.hero{
+    background: url(../img/couple-1.jpg);
+    /* background-size: cover; */
+    /* background-position: center; */
+    width: 100%;
+    margin-left: 10px;
+}
+.hero h2{
+    font-size: 60px;
+    color: #fff;
+    margin: 20px 50px;
+}
+.hero p{
+    color: #fff;
+    margin: 10px 759px 10px 50px;
+}
+
+
+.hero a{
+    text-decoration: none;
+    color: #fff;
+    background-color: red;
+    padding: 20px 30px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-left: 50px;
+    border: 1px solid #fff;
+    text-transform: uppercase;
+}
+
+.hero a:hover{
+    background-color: black;
+    color: #fff;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+/* top section end */
+/* Dance tour  section  */
+#dance{
+width: 100%;
+float: left;
+padding: 30px 0;
+text-align: center;
+background-color: red;
+}
+
+.writing-part{
+margin-bottom: 50px;
+width: 100%;
+float: left;
+}
+.writing-part h2{font-size: 60px;text-transform: uppercase;color: #fff;}
+.writing-part p{width: 60%;margin: auto;color: #fff;}
+.box-part{
+width: 100%;
+float: left;
+
+}
+.box{
+width: 30%;
+float: left;
+margin: 0 1.5%;
+background-color: rgb(247, 239, 239);
+}
+.box img{
+width: 100%;
+}
+
+.box h2{
+font-size: 25px;
+margin-top: 20px;
+color: red;
+}
+.box p{
+padding: 10px 20px;
+margin-bottom: 10px;
+color: red;
+}
+
+/* Dance tour  section end  */
+/* pricing section  */
+#pricing{
+    width: 100%;
+    float: left;
+    padding: 30px 0;
+    text-align: center;
+    background-color: rgb(8, 8, 8);
+    }
+    .box-2 i{
+        font-size: 200px;
+        color: rgb(238, 226, 226);
+    }
+    .writing-part-2{
+        margin-bottom: 50px;
+        width: 100%;
+        float: left;
+        color: #fff;
+}
+.writing-part-2 h2{
+    font-size: 60px;
+    text-transform: uppercase;
+ }
+    .writing-part-2 p{
+    width: 60%;
+    margin: auto;
+}
+.box-2{
+    width: 30%;
+    float: left;
+    margin: 0 1.5%;
+    background-color: rgb(226, 26, 26);
+    border-radius: 10px;
+    }
+
+    .box-2 h3{
+    font-size: 25px;
+    margin-top: 20px;
+    color: rgb(250, 239, 239);
+    text-transform: uppercase;
+    }
+    .box-2 p{
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    color: rgb(240, 228, 228);
+    }
+    .box-2 a{
+        text-decoration: none;
+        color: rgb(236, 17, 17);
+        background-color: rgb(243, 233, 233);
+        padding: 20px 30px;
+        border-radius: 5px;
+        display: inline-block;
+        margin-bottom: 10px;
+        border: 1px solid rgb(238, 231, 231);
+        
+    }
+    .box-2 a:hover{
+        background-color: black;
+    color: #fff;
+    font-family: sans-serif;
+    
+    }
+    /* pricing section end  */
+    /* MY section  */
+    #MY{
+        width: 100%;
+        float: left;
+ }
+.dance-2{
+    width: 100%;
+    float: left;
+    margin: -2px;
+}
+.img-part-3{width: 50%;float: left;/* margin-bottom: -20px; */}
+.img-part-3 img{
+width: 100%;
+height: 600px;
+}
+
+.weiting-part-3{
+    background-color: red;
+    width: 50%;
+    float: left;
+    padding: 258px 100px;
+    height: 600px;
+}
+
+.weiting-part-3 h1{
+
+font-size: 50px;
+
+padding: 10px;
+
+color: #fff;
+text-transform: uppercase;
+}
+.weiting-part-3 p{
+
+color: #fff;
+}
+.weiting-part-3 a{
+    text-decoration: none;
+    color: rgb(221, 34, 34);
+    background-color: rgb(247, 239, 239);
+    padding: 20px 30px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+    border: 1px solid red;
+    text-transform: uppercase;
+}
+
+.weiting-part-3 a:hover{
+    background-color: black;
+    color: #fff;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+    /* MY section end  */
+    /* OUR STATISTICS  */
+    #active{
+        width: 100%;
+        float: left;
+        padding: 154px 0;
+        text-align: center;
+        background-color: rgb(8, 8, 8);
+        margin-top: -4px;
+    }
+    .our-part{
+
+margin: 38px;
+
+/* width: 73%; */
+
+}
+    .our-part h1{
+        
+font-size: 41px;
+        
+color: rgb(238, 226, 226);
+        
+padding: 16px;
+    }
+    .our-part p{color: #fff;margin: 0px 281px;}
+    .Member{
+
+margin: -109px;
+
+margin-left: 50px;
+
+/* margin: 56px; */
+
+/* float: left; */
+
+}
+    .Member .Club {color: #fff;float: left;margin: 154px;}
+    .Club h2{color: #fff;font-size: 31px;}
+    .Club p{color: #fff;font-size: 26px;}
+    /* OUR STATISTICS end  */
+    /* HERBERT SIMON */
+   #kl{display: inline-block;}
+   .simon{
+       background: url(../img/child-dance-exercising-child-dancer-doing-dance-exercising-stock-photos_csp12837233.webp) no-repeat;
+       background-size: cover;
+       background-position: center;
+       width: 100%;
+       padding: 364px 0;
+   }
+   .simon p{margin: 0 434px;color: red;text-align: center;font-size: 19px;}
+   .simon h1{
+       
+font-size: 44px;
+       
+margin: 17px 528px;
+       
+color: red;
+       
+text-align: center;
+}
+    /* HERBERT SIMON end  */
+    form{position: absolute;}
+form input[tyoe="email"]{
+    border: 2px solid #fbaf32;
+    display: inline-block;
+    padding: 20px 130px 20px 20px;
+    width: 100%;
+    background-color: transparent;
+    border-radius: 5px;
+    margin-right: 130px;
+}*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.container{
+width: 90%;
+margin: auto;
+}
+
+/* top section end */
+#hader{width: 100%;display: inline-block;background-color: black;/* padding: 4px; *//* margin: 0px; */}
+#hader .logo{
+width: 30%;
+float: left;
+}
+#hader .logo i{
+    color: #fff;
+    font-size: 35px;
+    line-height: 0;
+    margin: 40px 160px;
+    text-align: center;
+}
+#hader .logo h3{
+    color: #fff;
+    font-size: 35px;
+    line-height: 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#hader .nav{
+width: 60%;
+float: left;
+margin: 50px 0;
+}
+#hader .nav ul li{
+    display: inline-block;
+    
+}
+#hader .nav ul li a{
+    color: #fff;
+    font-size: 40px;
+    line-height: 27px;
+    font-weight: 600;
+    margin-right: 20px;
+}
+
+#hader .nav ul li a:hover{
+    color: rgb(25, 25, 172);
+}
+
+#hader .hader-end{
+    width: 10%;
+    float: left;
+    margin-top: 40px;
+}
+#hader .hader-end i{
+    color: #fff;
+    font-size: 40px;
+}
+/* hero put */
+.hero{
+    /* background: url(../img/parthalata.jpeg) center no-repeat; */
+    background-size: cover;
+    width: 100%;
+    padding: 100px 0px;
+    margin: -5px;
+}
+.hero h2{
+    font-size: 60px;
+    color: red;
+    margin: 20px 50px;
+}
+.hero p{
+    color: red;
+    margin: 10px 550px 10px 50px;
+}
+
+
+.hero a{
+    text-decoration: none;
+    color: #fff;
+    background-color: red;
+    padding: 20px 30px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-left: 50px;
+    border: 1px solid red;
+    text-transform: uppercase;
+}
+
+.hero a:hover{
+    background-color: black;
+    color: #fff;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+/* top section end */
+/* Dance tour  section  */
+#dance{
+width: 100%;
+float: left;
+padding: 30px 0;
+text-align: center;
+background-color: red;
+}
+
+.writing-part{
+margin-bottom: 50px;
+width: 100%;
+float: left;
+}
+.writing-part h2{font-size: 60px;text-transform: uppercase;color: #fff;}
+.writing-part p{width: 60%;margin: auto;color: #fff;}
+.box-part{
+width: 100%;
+float: left;
+
+}
+.box{
+width: 30%;
+float: left;
+margin: 0 1.5%;
+background-color: rgb(247, 239, 239);
+}
+.box img{
+width: 100%;
+}
+
+.box h2{
+font-size: 25px;
+margin-top: 20px;
+color: red;
+}
+.box p{
+padding: 10px 20px;
+margin-bottom: 10px;
+color: red;
+}
+
+/* Dance tour  section end  */
+/* pricing section  */
+#pricing{
+    width: 100%;
+    float: left;
+    padding: 30px 0;
+    text-align: center;
+    background-color: rgb(8, 8, 8);
+    }
+    .box-2 i{
+        font-size: 200px;
+        color: rgb(238, 226, 226);
+    }
+    .writing-part-2{
+        margin-bottom: 50px;
+        width: 100%;
+        float: left;
+        color: #fff;
+}
+.writing-part-2 h2{
+    font-size: 60px;
+    text-transform: uppercase;
+ }
+    .writing-part-2 p{
+    width: 60%;
+    margin: auto;
+}
+.box-2{
+    width: 30%;
+    float: left;
+    margin: 0 1.5%;
+    background-color: rgb(226, 26, 26);
+    border-radius: 10px;
+    }
+
+    .box-2 h3{
+    font-size: 25px;
+    margin-top: 20px;
+    color: rgb(250, 239, 239);
+    text-transform: uppercase;
+    }
+    .box-2 p{
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    color: rgb(240, 228, 228);
+    }
+    .box-2 a{
+        text-decoration: none;
+        color: rgb(236, 17, 17);
+        background-color: rgb(243, 233, 233);
+        padding: 20px 30px;
+        border-radius: 5px;
+        display: inline-block;
+        margin-bottom: 10px;
+        border: 1px solid rgb(238, 231, 231);
+        
+    }
+    .box-2 a:hover{
+        background-color: black;
+    color: #fff;
+    font-family: sans-serif;
+    
+    }
+    /* pricing section end  */
+    /* MY section  */
+    #MY{
+        width: 100%;
+        float: left;
+ }
+.dance-2{
+    width: 100%;
+    float: left;
+    margin: -2px;
+}
+.img-part-3{width: 50%;float: left;/* margin-bottom: -20px; */}
+.img-part-3 img{
+width: 100%;
+height: 600px;
+}
+
+.weiting-part-3{
+    background-color: red;
+    width: 50%;
+    float: left;
+    padding: 258px 100px;
+    height: 600px;
+}
+
+.weiting-part-3 h1{
+
+font-size: 50px;
+
+padding: 10px;
+
+color: #fff;
+text-transform: uppercase;
+}
+.weiting-part-3 p{
+
+color: #fff;
+}
+.weiting-part-3 a{
+    text-decoration: none;
+    color: rgb(221, 34, 34);
+    background-color: rgb(247, 239, 239);
+    padding: 20px 30px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+    border: 1px solid red;
+    text-transform: uppercase;
+}
+
+.weiting-part-3 a:hover{
+    background-color: black;
+    color: #fff;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+    /* MY section end  */
+    /* OUR STATISTICS  */
+    #active{
+        width: 100%;
+        float: left;
+        padding: 154px 0;
+        text-align: center;
+        background-color: rgb(8, 8, 8);
+        margin-top: -4px;
+    }
+    .our-part{
+
+margin: 38px;
+
+/* width: 73%; */
+
+}
+    .our-part h1{
+        
+font-size: 41px;
+        
+color: rgb(238, 226, 226);
+        
+padding: 16px;
+    }
+    .our-part p{color: #fff;margin: 0px 281px;}
+    .Member{
+
+margin: -109px;
+
+margin-left: 50px;
+
+/* margin: 56px; */
+
+/* float: left; */
+
+}
+    .Member .Club {color: #fff;float: left;margin: 154px;}
+    .Club h2{color: #fff;font-size: 31px;}
+    .Club p{color: #fff;font-size: 26px;}
+    /* OUR STATISTICS end  */
+    /* HERBERT SIMON */
+   #kl{display: inline-block;}
+   .simon{
+       background: url(../img/child-dance-exercising-child-dancer-doing-dance-exercising-stock-photos_csp12837233.webp) no-repeat;
+       background-size: cover;
+       background-position: center;
+       width: 100%;
+       padding: 364px 0;
+   }
+   .simon p{margin: 0 434px;color: red;text-align: center;font-size: 19px;}
+   .simon h1{
+       
+font-size: 44px;
+       
+margin: 17px 528px;
+       
+color: red;
+       
+text-align: center;
+}
+    /* HERBERT SIMON end  */
+    form{position: absolute;
+        margin-left: 400px;
+    margin-top: 50px;}
+    input[type="email"] {
+        border: 2px solid red;
+        display: inline-block;
+        padding: 20px 130px 20px 20px;
+        width: 100%;
+        background-color: transparent;
+        border-radius: 5px;
+        margin-right: 130px;
+    }
+input[type="submit"] {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    padding: 16px 30px;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    font-style: unset;
+}
+input[type="submit"]:hover{
+    background-color: #fff;
+    color: red;
+}
+/* footer section  */
+#footer{
+    color: #fff;
+    overflow: hidden;
+    float: left;
+    background-color: red;
+    width: 100%;}
+#footer .musicolcgy{
+    width: 34%;
+    margin-right: 10px;
+    padding: 61px;
+    float: left;
+    margin-left: -39px;
+   
+}
+#footer .musicolcgy h2{
+    padding-bottom: 20px;
+    font-size: 35px;
+    font-weight: 700;
+    font-family: emoji;
+}
+#footer .musicolcgy p{
+    font-family: monospace;
+}
+#footer .musicolcgy .contact-social{
+    padding-top:15px
+}
+#footer .musicolcgy .contact-social i{
+    background-color: #fff;
+    padding-left: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    display:inline-flex;
+    justify-items: center;
+    align-items: center;
+    color: red;
+}
+#footer .musicolcgy .contact-social i:hover{
+    background-color: black;
+    color: #fff;
+}
+#footer .musicolcgy .contact-social i::before{
+   
+    padding-left: 4px;
+}
+#footer .about{
+    width: 20%;
+    float: left;
+    padding: 26px;
+    margin: 18px;
+}
+#footer .about h2{
+    text-transform: uppercase;
+    font-size: 35px;
+    padding-bottom: 6px;
+    font-family: inherit;
+}
+#footer .about ul{
+padding: 0;
+margin: 0;
+}
+#footer .about ul li{
+    list-style-type: none;
+    list-style-position: inside;
+    margin-left: -4px;
+}
+#footer .about ul li a{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: 10px;
+    display: inline-block;
+    
+}
+/* footer section end  */
